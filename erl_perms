@@ -1,0 +1,4 @@
+#!/bin/sh
+
+erlc erl_perms.erl
+erl -noshell -s erl_perms start $1
